@@ -1,0 +1,3 @@
+import requests
+r = requests.get(url="http://api.qiankr.com/auth/web/weibo", params={"code":"2662623092"})
+print r.status_code 
